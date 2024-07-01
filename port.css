@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0,18,25);
+    background: linear-gradient(90deg, rgba(0,18,25,1) 20%, rgba(0,18,25,1) 40%,);
+width: auto;
+    height: 754px;
+    overflow: hidden;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+h1:before{
+    color: #0e0d0d;
+   
+  
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 30px;
+  margin-top: 50px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0px;
+}
+h1:hover:before {
+    background-color: #b7e4c7;
+    width: 6rem;
+  }
+ul li{
+    float: left;
+    color: #b7e4c7;
+    list-style: none;
+    padding: 0px 28px;
+    font-size: 23px;
+    font-weight: 500;
+    position: relative;
+    left: 526px;
+    top: -57px;
+    
+}
+.btn {
+    display: inline-flex;
+    justify-content: space-between;
+    background: rgba(0,18,25,1);
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    top: -77px;
+    left: 222px;
+  }
+  
+  .btn:hover {
+    opacity: .95;
+  }
+  
+  .btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+  }
+  
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(122, 118, 118, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+  }
+  .myimg{
+    height:515px ;
+    width: 388px;
+    border-radius: 53% 47% 49% 51% / 50% 74% 26% 50%;
+    position: relative;
+    left: 940px;
+    top: -418px;
+    filter: drop-shadow(1px 1px 20px #b7e4c7);
+}

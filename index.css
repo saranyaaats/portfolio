@@ -1,0 +1,34 @@
+
+h1{
+    color: #333533;
+    font-size: 30px;
+    font-family: 'Arial Rounded MT Bold';
+    position: relative;
+    left: 60px;
+    top:7px ;
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    left: 393px;
+    top: -60px;
+    cursor: pointer;
+    text-decoration: none;
+}
+li{
+    color: #333533;
+    font-size: 22px;
+    float: left;
+    text-decoration: none;
+    padding: 20px 46px;
+    font-family: 'Arial Rounded MT Bold';
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.anime:hover{
+    transform: scale(1.1);
+animation-duration: .5s;}
